@@ -2,16 +2,16 @@
 
 /**
  * _isdigit -  checks for a digit (0 through 9)
- * @n - number to be checked
+ * @x - number to be checked
  * Return - 1 if c is a digit and 0 if otherwise
  */
 
-int _isdigit(int n)
+int _isdigit(int x)
 
 {
-	int n;
+	int x;
 
-	if (n >= 48 && n <= 57)
+	if (x >= 48 && x <= 57)
 	{
 	return (1);
 	}
