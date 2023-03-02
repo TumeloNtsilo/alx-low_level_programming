@@ -6,7 +6,7 @@
  * Return: A changed string
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 
 {
 
@@ -15,8 +15,8 @@ char *string_toupper(char *)
 	while (str[index])
 	{
 	if (str[index] >= 'a' && str[index] <= 'z')
-	str[index] -= '32';
-	index++
+	str[index] -= 32;
+	index++;
 	}
 	return (str);
 }
